@@ -15,7 +15,7 @@
 
 #list { background-color: yellow; width: 20%;}
 #section { background-color: green; width: 60%;}
-#section div { background-color: white; width: 70%; margin: auto;
-    & div { border: 2px solid green; margin-top: 5px;}
+#section div { width: 70%; margin: auto;
+    & div { border: 2px solid; margin-top: 5px; background-color: white;}
 }
 #side { background-color: yellow; width: 20%;}
