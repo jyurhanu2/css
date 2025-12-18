@@ -1,0 +1,34 @@
+#wrap2 { background-color: white; width: 400px; margin: auto;}
+#wrap2 > :nth-of-type(1) { background-color: red; }
+#wrap2 > :nth-of-type(2) {
+    display: flex;
+    height: 100px; background-color: green;
+    & > :nth-of-type(1) { width: 100px; background-color: yellow;}
+    & > :nth-of-type(2) { width: 100px; background-color: green;}
+}
+#wrap2 > :nth-of-type(3) { background-color: hotpink; }
+
+
+#wrap { background-color: white; width: 400px; margin: 0 auto;}
+#wrap > :nth-of-type(1) { background-color: red; }
+#wrap > :nth-of-type(2) { 
+    display: flex;
+    height: 100px; background-color: yellow;    
+    & > :nth-of-type(1) { width: 100px; background-color: yellow; }
+    & > :nth-of-type(2) { width: 200px; background-color: green; }
+}
+#wrap > :nth-of-type(3) { background-color: hotpink; }
+
+#wrap3 { background-color: white; width: 400px; margin: 0 auto;}
+#wrap3 > :nth-of-type(1) { background-color: red; }
+#wrap3 > :nth-of-type(2) { 
+    display: flex;
+    height: 100px; background-color: yellow;    
+    & > :nth-of-type(1) { width: 100px; background-color: yellow; }
+    & > :nth-of-type(2) { width: 200px; background-color: green; }
+}
+#wrap3 div > :nth-of-type(1) { width: 150px; background-color: white;}
+#wrap3 div > :nth-of-type(2) { width: 150px; background-color: white;}
+#wrap3 div > :nth-of-type(3) { width: 150px; background-color: white;}
+
+#wrap3 > :nth-of-type(3) { background-color: hotpink; }
