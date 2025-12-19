@@ -1,0 +1,19 @@
+#div1 { width: 400px; background-color: gold; border: 1px solid black;}
+#index { background-color: gold; }
+.index1 {
+    background-color: white;
+    height: 0; overflow: hidden;
+    transition: 0.5s;
+}
+.index2 {
+    background-color: white;
+    height: 0; overflow: hidden;
+    transition: 0.5s;
+}
+#index li:hover .index1 { height: 120px;
+    text-align: center; height: 100px; line-height: 100px;
+}
+#index li:hover .index2 { height: 120px;
+    text-align: center; height: 100px; line-height: 100px;
+}
+ul { margin: 0; padding: 0;}

@@ -1,0 +1,36 @@
+ul { margin: 0; padding: 0; }
+li { list-style: none; width: 100px; text-align: center;
+    height: 40px; line-height: 40px;
+}
+#nav {
+    width: 400px; background-color: orange;
+}
+/*** 7-1,2번 문제 적용
+ #menu { display: flex; }
+***/
+.menu1 {
+    /*
+    height: 120px;
+    display: none;
+    border: 1px solid;
+    */
+    height: 0;
+    overflow: hidden;
+    border-radius: 15px;
+    margin-left: 100px;
+    margin-top: -40px;
+    width: 100px;
+}
+/*** 문제 7-1,3번 ***/
+#menu li:hover .menu1 {
+    /* display: block; */
+    height: 120px;
+    border: 1px solid;    
+}
+/*** 문제 7-2번
+#menu:hover .menu1 {
+    /* display: block;
+    height: 120px;
+    border: 1px solid;    
+}
+***/
