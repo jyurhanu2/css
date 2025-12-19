@@ -1,0 +1,16 @@
+#header { width: 700px; background-color: brown;}
+#title_logo { width: 100px; height: 100px; border-radius: 100px; overflow: hidden; }
+#title_logo > img { width: 100px; height: 100px; }
+#div { width: 700px; background-color: brown; }
+#div > ul { display: flex; list-style: none; padding: 0;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none; color: white;
+    &:hover{
+    text-decoration: none; color: orange;
+    border-bottom: 3px solid orange;
+    padding-bottom: 5px;
+    }
+}
